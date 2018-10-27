@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Facebook cleanup Extension",
+  "version": "0.1",
+  "content_scripts": [
+	  {
+	    "matches": [
+	      "https://*.facebook.com/*"
+	    ],
+	    "js": ["jquery.js","cleanup.js"]
+	  }
+	]
+}
